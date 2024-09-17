@@ -19,7 +19,7 @@ getgenv().Config = {
     ["Auto Convert Solar"] = false,
     ["Summon Unit"] = "",
     ["Auto TP to Athenyx"] = false,
-    ["Ignore Shiny Auto Sell Rarity"] = false,
+    ["Ignore Shiny Auto Sell Rarity"] = true,
     ["Auto Start Time Delay"] = 1,
     ["Auto Lobby TP on Time"] = false,
     ["Auto Convert Tickets"] = false,
@@ -61,10 +61,10 @@ getgenv().Config = {
     ["Hide Key"] = "U",
     ["Macros Selected"] = {
         ["Challenge"] = {
-            ["MobCity"] = "woop_mob"
+            ["MobCity"] = "mob_unevo"
         },
         ["Infinite"] = {
-            ["MobCity"] = "woop_mob"
+            ["MobCity"] = "mob_unevo"
         },
         ["HallOfMirrors"] = {
             ["Normal"] = "",
@@ -73,11 +73,11 @@ getgenv().Config = {
             ["Easy"] = ""
         },
         ["Portal"] = {
-            ["Demon"] = "woop_yuno_portal"
+            ["Demon"] = "portal_unevo"
         },
         ["Raid"] = {},
         ["Story"] = {
-            ["MobCity"] = "woop_mob"
+            ["MobCity"] = "mob_unevo"
         },
         ["Tower"] = {
             ["Map1"] = "",
@@ -116,7 +116,7 @@ getgenv().Config = {
     ["Auto Trade"] = false,
     ["Black Screen"] = false,
     ["dsa3"] = 0,
-    ["Auto Sell Farms"] = false,
+    ["Auto  Farms"] = false,
     ["Auto Claim Battlepass"] = true,
     ["CloudSave"] = {},
     ["Enable Auto Harden"] = false,
