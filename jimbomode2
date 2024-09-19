@@ -73,7 +73,7 @@ getgenv().Config = {
             ["Easy"] = ""
         },
         ["Portal"] = {
-            ["Demon"] = "woop_yuno_portal(1)"
+            ["Demon"] = "woop_yuno_portal (1)"
         },
         ["Raid"] = {},
         ["Story"] = {
