@@ -1,6 +1,6 @@
 getgenv().Config = {
     ["Ignore Shiny Sell Rarity"] = true,
-    ["blackScreen"] = false,
+    ["blackScreen"] = true,
     ["Enable Auto Send Trade"] = false,
     ["Harden Portal Select"] = "",
     ["ConvertSolar"] = 0,
@@ -161,7 +161,7 @@ getgenv().Config = {
     ["Auto Send Gems"] = false,
     ["AutoLeaveOnWave"] = 31,
     ["Enable Auto Portal"] = false,
-    ["FPS Boost"] = false,
+    ["FPS Boost"] = true,
     ["Auto Start"] = false,
     ["Auto Skip Wave"] = true,
     ["Auto Buy Raid2"] = false,
