@@ -1,0 +1,16 @@
+repeat task.wait() until game:IsLoaded()
+wait(5) -- Put this for make sure script will execute
+_G.Webhook  = {['https://discord.com/api/webhooks/1251747461056303174/9DoPXh-JJOK4VAUq4_P9wQFv6SPA2b4J8cEvnlyAPlKrE3p3peCGG7BThYA7F6OliYE4'] = 'Link', ['SendWebhookReward'] = true} -- Notify when end match
+_G.SettingsAD = {
+    ["LeaveAtWave"] = 31,
+    ["DelayStartLobby"] = 0,
+    ["MethodLeave"] = "Sell", -- Sell, Leave,
+    ["ReplayInStoryMode"] = false, -- Use when u want to play only story mode ( next time will go to next chapter too when disconnect )
+    ["BlackScreen"] = true,
+    ["EquipBest"] = true,
+    ["SpeedModifier"] = 2
+}
+getgenv().Key = "MARU-C7851-TG1B-KDYOT-2ELS-Y5N8S"
+getgenv().id = "966228434995007548"
+getgenv().Script_Mode = "Kaitun_Script"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"))()
