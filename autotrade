@@ -54,7 +54,7 @@ if accountType == "main" then
 
 elseif accountType == "sub" then
     -- Sub account script
-    script_key = "SdSxADrwmvDyPXCMEMJjTYbMqERqhkdR"
+    script_key = "prvdiGTSxqZxQiZLNwuezwXEIzUzYdQo"
     getgenv().SelectedPlayer = associatedMainAccount -- Main Account name that the sub-account will send gems to
     getgenv().MainAccount = false -- Set False because it's a sub account
     getgenv().AccountForMainToFolow = ""
