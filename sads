@@ -10,7 +10,7 @@ os.makedirs(boot_dir, exist_ok=True)
 
 # Create first script: 01_set_android_id.sh
 script_1_content = '''#!/data/data/com.termux/files/usr/bin/sh
-ANDROID_ID=76e5926902acec49 # Replace with your actual Android ID
+ANDROID_ID=b419fa14320149db # Replace with your actual Android ID
 echo "Setting Android ID to $ANDROID_ID" >> /data/android_sh.log
 settings put secure android_id $ANDROID_ID
 if [ $? -ne 0 ]; then
