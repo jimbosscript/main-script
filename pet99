@@ -1,0 +1,28 @@
+getgenv().Config = {
+    ["Farming"] = {
+        ["AutoEvents"] = {"Party Box", "Mini Pinata", "Mini Lucky Block"},
+        ["AutoOpen"] = {"Gift Bag", "Large Gift Bag", "Mini Chest","Rainbow Mini Chest"},
+        ["AutoPotions"] = {"Diamonds", "Damage", "Walkspeed", "Treasure Hunter","Lucky Eggs","The Cocktail","Coins"},
+        ["AutoFlags"] = {"Fortune Flag"}
+    },
+    ["Webhook"] = {
+        ["HugeURL"] = "https://discord.com/api/webhooks/1250838913023737856/RVyeG3NdCP5vwpvtU2xjLSd_QYQCMG57JmXrG7xmXk1tUdeSd9_fGtsnaMnFw2AYcViI",
+        ["StatsURL"] = "https://discord.com/api/webhooks/1250838913023737856/RVyeG3NdCP5vwpvtU2xjLSd_QYQCMG57JmXrG7xmXk1tUdeSd9_fGtsnaMnFw2AYcViI",
+        ["UserID"] = "966228434995007548",
+        ["SendEvery"] = 60
+    },
+    ["Misc"] = {
+        ["AutoDaycare"] = true,
+        ["UltraFPS"] = false,
+        ["AutoBuyAllSlots"] = true,
+        ["EquipEnchants"] = {""},
+    },
+    ["Elemental"] = {
+        ["AutoBuyCubes"] = {"Ultra Pet Cube"},
+        ["AutoTrainerQuests"] = true,
+        ["AutoFarmChest"] = false,
+    },
+    ["AutoMailUser"] = "Wraith4a"
+}
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/2bdebaf848a6be382ed338dad329aaf2.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/neezie1/pira/main/ClaimRankRewards.lua"))()
