@@ -1,7 +1,7 @@
 getgenv().Config = {
     ["EquipEnchants"] = {"Coins", "Diamonds", "Treasure Hunter", "Strong Pets", "Tap Power"},
     ["KickWhenReachGoal"] = {
-        ["Rank"] = 12,
+        ["Rank"] = 33,
         ["Rebirth"] = 9,
         ["Area"] = 234
     },
@@ -17,5 +17,9 @@ getgenv().Config = {
     ["UltraFPS"] = true,
     ["Webhook"] = "https://discord.com/api/webhooks/1250838913023737856/RVyeG3NdCP5vwpvtU2xjLSd_QYQCMG57JmXrG7xmXk1tUdeSd9_fGtsnaMnFw2AYcViI",
 }
+
+-- Load first script
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/177d65e916988f4b84dd21ed33a2aa91.lua"))()
+
+-- Load second script
 loadstring(game:HttpGet("https://raw.githubusercontent.com/neezie1/pira/main/ClaimRankRewards.lua"))()
