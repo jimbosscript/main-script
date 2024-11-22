@@ -1,25 +1,31 @@
 getgenv().Config = {
-    ["EquipEnchants"] = {"Coins", "Diamonds", "Treasure Hunter", "Strong Pets", "Tap Power"},
-    ["KickWhenReachGoal"] = {
-        ["Rank"] = 33,
-        ["Rebirth"] = 9,
-        ["Area"] = 234
+    ["Farming"] = {
+        ["AutoEvents"] = {"Party Box", "Mini Pinata", "Mini Lucky Block"},
+        ["AutoOpen"] = {"Gift Bag", "Large Gift Bag", "Mini Chest","Rainbow Mini Chest"},
+        ["AutoPotions"] = {"Diamonds", "Damage", "Walkspeed", "Treasure Hunter","Lucky Eggs","The Cocktail","Coins"},
+        ["AutoFlags"] = {"Fortune Flag"}
     },
-    ["StopAt"] = {
-        ["Rank"] = 33, 
-        ["Area"] = 234
+    ["Webhook"] = {
+        ["HugeURL"] = "https://discord.com/api/webhooks/1250838913023737856/RVyeG3NdCP5vwpvtU2xjLSd_QYQCMG57JmXrG7xmXk1tUdeSd9_fGtsnaMnFw2AYcViI",
+        ["StatsURL"] = "https://discord.com/api/webhooks/1250838913023737856/RVyeG3NdCP5vwpvtU2xjLSd_QYQCMG57JmXrG7xmXk1tUdeSd9_fGtsnaMnFw2AYcViI",
+        ["UserID"] = "601370367629590532",
+        ["SendEvery"] = 60
     },
-
-    ["AutoOpen"] = true,
-    ["AutoBalloon"] = true,
-
-    ["FPSBooster"] = true,
-    ["UltraFPS"] = true,
-    ["Webhook"] = "https://discord.com/api/webhooks/1250838913023737856/RVyeG3NdCP5vwpvtU2xjLSd_QYQCMG57JmXrG7xmXk1tUdeSd9_fGtsnaMnFw2AYcViI",
+    ["Misc"] = {
+        ["AutoDaycare"] = true,
+        ["UltraFPS"] = true,
+        ["AutoBuyAllSlots"] = true,
+        ["EquipEnchants"] = {""},
+    },
+    ["Elemental"] = {
+        ["AutoBuyCubes"] = {"Ultra Pet Cube"},
+        ["AutoTrainerQuests"] = true,
+        ["AutoFarmChest"] = false,
+    },
+    ["AutoMailUser"] = "Wraith4a"
 }
-
 -- Load first script
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/177d65e916988f4b84dd21ed33a2aa91.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/2bdebaf848a6be382ed338dad329aaf2.lua"))()
 
 -- Load second script
 loadstring(game:HttpGet("https://raw.githubusercontent.com/neezie1/pira/main/ClaimRankRewards.lua"))()
