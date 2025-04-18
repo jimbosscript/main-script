@@ -1,1 +1,1 @@
-loadstring(game:HttpGet("https://rawscripts.net/raw/Bubble-Gum-Simulator-INFINITY-Idiot-Hub-35306"))()
+repeat wait()spawn(function()loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()end)wait(20)until getgenv().Joebiden
