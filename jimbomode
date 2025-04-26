@@ -1,10 +1,8 @@
+setfpscap(35) -- Change 15 to whatever fps you want to cap it to 
+
 getgenv().Key = "TcLRQVBWPydaJnBjXqgxRZAoMRCNHEcZ"
-
-local fpsCap = 30
-local frameDelay = 1 / fpsCap
-
-repeat
-    wait(frameDelay) -- Limit to 30 FPS
+repeat 
+    wait()
     spawn(function()
         loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
     end)
