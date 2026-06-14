@@ -1,6 +1,6 @@
 getgenv().Config = {
     ["Webhook"] = {
-        ["URL"] = "",
+        ["URL"] = "https://discord.com/api/webhooks/1246144086734536794/KGiHrPJ1ZMqrjXZmBEBpq0RPPldQVl48emTV2lTgGmGKIAY8tE7CBrZTz8SuFH2wiziu",
         ["Discord Id to ping"] = {""},
         ["Send Normal Huges"] = true,
     },
