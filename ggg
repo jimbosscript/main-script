@@ -19,8 +19,8 @@ getgenv().Config = {
 
 
     ["EggSettings"] = {
-        ["MinFreeEgg"] = 1, -- or 1,2,5,10 etc or false to disable,
-        ["MinTitanicegg"] = 1, -- or 1,2,5,10 etc or false to disable,
+        ["MinFreeEgg"] = 10, -- or 1,2,5,10 etc or false to disable,
+        ["MinTitanicegg"] = 10, -- or 1,2,5,10 etc or false to disable,
     },
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/992997535910a415037c9a7234bf76ac.lua"))()
