@@ -1,0 +1,68 @@
+script_key="FuWfFLtpLgryseGTJbqpgyTtLYELXjQg";
+getgenv().Config = {
+    ["Planting"] = {
+        -- crop = how many to keep growing (set 0 or delete a line to skip it)
+        ["Seeds To Plant"] = {
+            ["Carrot"]=50, ["Strawberry"]=30, ["Blueberry"]=20, ["Tulip"]=10, ["Tomato"]=40, ["Apple"]=20,
+            ["Bamboo"]=50, ["Corn"]=20, ["Cactus"]=20, ["Pineapple"]=20, ["Mushroom"]=20, ["Green Bean"]=20,
+            ["Banana"]=20, ["Grape"]=20, ["Coconut"]=20, ["Mango"]=20, ["Dragon Fruit"]=20, ["Acorn"]=20,
+            ["Cherry"]=20, ["Sunflower"]=20, ["Venus Fly Trap"]=20, ["Pomegranate"]=20, ["Poison Apple"]=20,
+            ["Moon Bloom"]=0, ["Dragon's Breath"]=0, ["Ghost Pepper"]=20, ["Poison Ivy"]=20,
+            ["Baby Cactus"]=20, ["Glow Mushroom"]=20, ["Romanesco"]=20, ["Horned Melon"]=20,
+        },
+        ["Auto Buy Seeds"]=true, ["Auto Plant"]=true, ["Auto Upgrade Crops"]=true, ["Expand Garden"]=true,
+        ["Collect Seed Packs"]=true,  -- auto-walk to & grab Rainbow/Gold seeds + seed packs that spawn on the map
+    },
+    ["Harvest"] = {
+        ["Auto Harvest"]=true, ["Auto Sell"]=true, ["Keep Mutated"]=false,
+        ["Wait For Mutations"]={},  -- {} = sell all, or hoard e.g. { "Gold", "Rainbow" }
+        ["Keep Favorites"]={ "Rainbow Seed", "Gold Seed", "Moon Bloom", "Dragon's Breathe" },  
+    },
+
+    ["Gears"] = {
+        ["Use Sprinklers"]=true,
+        ["Sprinkler Stack"]=4,
+        ["Use Watering Can"]=true,
+        ["Buy Gears"]=true,
+        ["Gears To Buy"]={
+            "Super Sprinkler", "Legendary Sprinkler", "Rare Sprinkler", "Uncommon Sprinkler", "Common Sprinkler",
+            "Super Watering Can", "Common Watering Can",
+        },
+        ["Gears To Use"]={
+            "Super Sprinkler", "Legendary Sprinkler", "Rare Sprinkler", "Uncommon Sprinkler", "Common Sprinkler",
+            "Super Watering Can", "Common Watering Can",
+        },
+    },
+    ["Pets"] = {
+        ["Enable"]=true, ["Buy Wild Pets"]=true, ["Equip Best Pets"]=false, ["Open Eggs"]=false,
+        ["Pets To Buy"]={ "IceSerpent", "BlackDragon", "Raccoon", "Unicorn", "Monkey", "GoldenDragonfly", "Deer" },
+        ["Pets To Equip"]={ "Deer" },
+    },
+    ["Mail"] = {
+        ["Enabled"]=true,                 -- master switch for Auto Mail (send loot to another account)
+        ["Send To Username"]="wraith4a",           -- exact username that RECEIVES it, e.g. "YourMain" (may be offline)
+        ["Note"]="hello",                       -- optional message attached to the gift
+        ["Mail Instead Of Sell"]=false,     -- on = fruit is mailed (not sold) while Auto Mail is active
+        -- Fruit
+        ["Mail Fruits"]=false,              -- mail your harvested fruit
+        ["Only These Fruits"]={},          -- {} = every fruit; else only e.g. { "Dragon Fruit","Mango" }
+        ["Min Fruits To Send"]=10,         -- batch: wait for this many fruit before each mail
+        -- Seeds  (competes with Auto Plant / Auto Buy if those are on)
+        ["Mail Seeds"]=true,              -- mail seeds too
+        ["Seeds To Mail"]={ "Moon Bloom", "Dragon's Breath", "Rainbow Seed", "Gold Seed", "Rainbow", "Gold", "Seed: Gold", "Seed: Rainbow", "Seed: Moon Bloom", "Seed: Dragon's Breath" },              -- {} = every seed you hold; else e.g. { "Carrot","Apple" }
+        -- Pets  (equipped pets are NEVER mailed - the game blocks gifting them)
+        ["Mail Pets"]=true,               -- mail pets too
+        ["Pets To Mail"]={ "IceSerpent", "BlackDragon", "Raccoon", "Unicorn", "Monkey", "GoldenDragonfly" },               -- pet NAMES to mail, e.g. { "Robin" }; {} = none (safety)
+    },
+    ["Codes"] = { ["Auto Redeem"]=true, ["List"]={ "TEAMGREENBEAN" } },
+    ["Webhook"] = {
+        ["Enabled"]=true,
+        ["Your Discord ID"]="",
+        ["Your Private Webhook"]="https://discord.com/api/webhooks/1515359263583764602/n3YrtOh2562AhexPvBHoGi8e0hM_2hvEHC47J-_uYACDKo_zHxGrt69lX8mLTnIMoxnz",
+        ["Only These"]={ "Mythic", "Super", "Legendary" }
+    },
+    ["Anti AFK"] = { ["Enabled"]=true },
+    ["Performance"] = { ["Enabled"]=true, ["FPS Cap"]=5 },
+}
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/58ea2baa5f6765b3945bed56f6d2319b.lua"))()
