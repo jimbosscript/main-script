@@ -1,0 +1,108 @@
+setfpscap(10)
+script_key="PzyezQAVpAJjmygQKKJgCjzEWhkeXkfj";
+getgenv().GAG2Config = {
+    AUTO_UPDATE_RESTART = true,
+
+    BUY_PET = {  -- ["Pet Name"] = Amount
+        ["Monkey"] = 99, 
+        ["Bee"] = 99, 
+        ["Black Dragon"] = 99, 
+        ["Golden Dragonfly"] = 99, 
+        ["Unicorn"] = 99, 
+        ["Raccoon"] = 99, 
+        ["Ice Serpent"] = 99,
+
+        ["Robin"] = 5,
+        ["Deer"] = 5,
+    },
+
+    EQUIP_PET = {  -- {"Pet Name", Amount to Equip, Priority}
+        {"Unicorn", 5, 1}, 
+        {"Golden Dragonfly", 10, 2},
+        {"Robin", 5, 3},
+        {"Deer", 5, 4},
+    },
+
+    PLANT_SEED = {  -- ["Seed Name"] = Amount
+        ["Carrot"] = 10, 
+        ["Strawberry"] = 4,
+        ["Blueberry"] = 4,
+        ["Tulip"] = 4,
+        ["Tomato"] = 4,
+        ["Apple"] = 4,
+        ["Bamboo"] = 0,
+        ["Corn"] = 4,
+        ["Cactus"] = 4,
+        ["Pineapple"] = 4,
+        ["Mushroom"] = 0,
+        ["Green Bean"] = 50,
+        ["Banana"] = 50,
+        ["Grape"] = 50,
+        ["Coconut"] = 50,
+        ["Mango"] = 50,
+        ["Dragon Fruit"] = 50,
+        ["Acorn"] = 50,
+        ["Cherry"] = 50,
+        ["Sunflower"] = 50,
+        ["Venus Fly Trap"] = 50,
+        ["Pomegranate"] = 50,
+        ["Poison Apple"] = 50,
+        ["Moon Bloom"] = 0,
+        ["Dragon's Breath"] = 0,
+    },
+
+    BUY_SEED = {  -- ["Seed Name"] = Amount
+        ["Carrot"] = 999, 
+        ["Strawberry"] = 999,
+        ["Blueberry"] = 999,
+        ["Tulip"] = 999,
+        ["Tomato"] = 999,
+        ["Apple"] = 999,
+        ["Bamboo"] = 999,
+        ["Corn"] = 999,
+        ["Cactus"] = 999,
+        ["Pineapple"] = 999,
+        ["Mushroom"] = 999,
+        ["Green Bean"] = 999,
+        ["Banana"] = 999,
+        ["Grape"] = 999,
+        ["Coconut"] = 999,
+        ["Mango"] = 999,
+        ["Dragon Fruit"] = 999,
+        ["Acorn"] = 999,
+        ["Cherry"] = 999,
+        ["Sunflower"] = 999,
+        ["Venus Fly Trap"] = 999,
+        ["Pomegranate"] = 999,
+        ["Poison Apple"] = 999,
+        ["Moon Bloom"] = 999,
+        ["Dragon's Breath"] = 999,
+    },
+
+    SELL_ALL_DELAY = 20,
+    EXPAND_PLOT = false,
+    BUY_GEAR = {},  -- ["Gear Name"] = Amount
+    BUY_CRATE = {},  -- ["Crate Name"] = Amount
+    USE_SPRINKLER = {},  -- "Sprinkler Name"
+
+    -- Auto Mail
+    AUTO_MAIL_USERNAME = {"wraith4a"},  -- "Username" (Randomized)
+    AUTO_MAIL_ITEM_NAME = {["Rainbow"] = 1, ["Gold"] = 1, ["Bamboo"] = 20, ["Mushroom"] = 5, ["Dragon's Breath"] = 1, ["Moon Bloom"] = 1, ["Raccoon"] = 1, ["Monkey"] = 1, ["Ice Serpent"] = 1, ["Bee"] = 99, ["Black Dragon"] = 1, ["Golden Dragonfly"] = 1},  -- ["Item Name"] = Amount
+    COLLECT_MAIL = true,
+
+    -- Discord
+    WEBHOOK_PET_NAME = {},
+    WEBHOOK_PET_RARITY = { "Mythic", "Super", "Secret" },
+    WEBHOOK_URL = "https://discord.com/api/webhooks/1245657140530515998/b21ZWHUZAiIABCXeyXQe8AVhR8hF_reDuQhonJtfdzuEgZN-ipSgKs-SCAP8RIoJMXA9",
+    DISCORD_ID = "966228434995007548",
+    WEBHOOK_NOTE = "nigga",  -- Private Webhook
+    SHOW_PUBLIC_DISCORD_ID = false,
+    SHOW_WEBHOOK_USERNAME = true,  -- Private Webhook
+    SHOW_WEBHOOK_JOBID = true,  -- Private Webhook
+}
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/c9ea3aa6c782de82dee4bcf6b9a9d03e.lua"))()
+
+
+script_key="PzyezQAVpAJjmygQKKJgCjzEWhkeXkfj";
+loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/c9ea3aa6c782de82dee4bcf6b9a9d03e.lua"))()
