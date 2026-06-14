@@ -19,7 +19,7 @@ getgenv().Config = {
 
 
     ["EggSettings"] = {
-        ["MinFreeEgg"] = 100, -- or 1,2,5,10 etc or false to disable,
+        ["MinFreeEgg"] = 1, -- or 1,2,5,10 etc or false to disable,
         ["MinTitanicegg"] = 100, --  or 1,2,5,10 etc or false to disable,
     },
 }
