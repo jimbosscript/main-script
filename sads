@@ -1,63 +1,102 @@
-import os
-import stat
+script_key="onIJdCToOCtouKHvPKEoGULYjbVpDGud";
+getgenv().GAG2Config = {
+    FPS_CAP = 7,
+    AUTO_UPDATE_RESTART = true,
+    BUY_PET = {  -- ["Pet Name"] = Amount
+        ["Monkey"] = 99, 
+        ["Bee"] = 99, 
+        ["BlackDragon"] = 99, 
+        ["GoldenDragonfly"] = 99, 
+        ["Unicorn"] = 99, 
+        ["Raccoon"] = 99, 
+        ["Ice Serpent"] = 99,
 
-# Define paths
-boot_dir = os.path.expanduser("~/.termux/boot")
-home_dir = "/data/data/com.termux/files/home"
+        ["Robin"] = 5,
+        ["Deer"] = 5,
+    },
 
-# Create boot directory
-os.makedirs(boot_dir, exist_ok=True)
+    EQUIP_PET = {  -- {"Pet Name", Amount to Equip, Priority}
+        {"Robin", 5, 3},
+        {"Deer", 5, 4},
+    },
 
-# Create first script: 01_set_android_id.sh
-script_1_content = '''#!/data/data/com.termux/files/usr/bin/sh
-ANDROID_ID=b419fa14320149db # Replace with your actual Android ID
-echo "Setting Android ID to $ANDROID_ID" >> /data/android_sh.log
-settings put secure android_id $ANDROID_ID
-if [ $? -ne 0 ]; then
-    echo "Failed to set Android ID" >> /data/android_sh.log
-    exit 1
-fi
-echo "Android ID set successfully" >> /data/android_sh.log
-'''
-with open(f"{home_dir}/01_set_android_id.sh", "w") as file:
-    file.write(script_1_content)
+    PLANT_SEED = {  -- ["Seed Name"] = Amount
+        ["Carrot"] = 1, 
+        ["Strawberry"] = 1,
+        ["Blueberry"] = 1,
+        ["Tulip"] = 10,
+        ["Tomato"] = 1,
+        ["Apple"] = 1,
+        ["Bamboo"] = 100,
+        ["Corn"] = 1,
+        ["Cactus"] = 1,
+        ["Pineapple"] = 4,
+        ["Mushroom"] = 0,
+        ["Green Bean"] = 10,
+        ["Banana"] = 2,
+        ["Grape"] = 2,
+        ["Coconut"] = 1,
+        ["Mango"] = 1,
+        ["Dragon Fruit"] = 1,
+        ["Acorn"] = 1,
+        ["Cherry"] = 1,
+        ["Sunflower"] = 1,
+        ["Venus Fly Trap"] = 1,
+        ["Pomegranate"] = 1,
+        ["Poison Apple"] = 1,
+        ["Moon Bloom"] = 0,
+        ["Dragon's Breath"] = 0,
+    },
 
-# Create second script: 02_run_additional_command.sh
-script_2_content = '''#!/data/data/com.termux/files/usr/bin/sh
-su -c "/data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/home/01_set_android_id.sh"
-'''
-with open(f"{home_dir}/02_run_additional_command.sh", "w") as file:
-    file.write(script_2_content)
+    BUY_SEED = {  -- ["Seed Name"] = Amount
+        ["Carrot"] = 1, 
+        ["Strawberry"] = 1,
+        ["Blueberry"] = 1,
+        ["Tulip"] = 50,
+        ["Tomato"] = 1,
+        ["Apple"] = 1,
+        ["Bamboo"] = 999,
+        ["Corn"] = 1,
+        ["Cactus"] = 1,
+        ["Pineapple"] = 1,
+        ["Mushroom"] = 999,
+        ["Green Bean"] = 1,
+        ["Banana"] = 1,
+        ["Grape"] = 1,
+        ["Coconut"] = 1,
+        ["Mango"] = 1,
+        ["Dragon Fruit"] = 1,
+        ["Acorn"] = 1,
+        ["Cherry"] = 1,
+        ["Sunflower"] = 1,
+        ["Venus Fly Trap"] = 1,
+        ["Pomegranate"] = 1,
+        ["Poison Apple"] = 1,
+        ["Moon Bloom"] = 999,
+        ["Dragon's Breath"] = 999,
+    },
+    
+    COLLECT_PLANT_IF_MUTATED = { "Bamboo", "Green Bean" },
+    SELL_ALL_DELAY = 20,
+    EXPAND_PLOT = true,
+    BUY_GEAR = {["Super Sprinkler"] = 99, ["Super Watering Can"] = 99, ["Legendary Sprinkler"] = 99, ["Common Sprinkler"] = 99, ["Uncommon Sprinkler"] = 99, ["Rare Sprinkler"] = 99},  -- ["Gear Name"] = Amount
+    BUY_CRATE = {},  -- ["Crate Name"] = Amount
+    USE_SPRINKLER = {"Common Sprinkler", "Uncommon Sprinkler","Rare Sprinkler"},  -- "Sprinkler Name"
 
-# Create third script: 03_run_python_script.sh
-script_3_content = '''#!/data/data/com.termux/files/usr/bin/sh
-su -c "cd /sdcard/download && export PATH=$PATH:/data/data/com.termux/files/usr/bin && export TERM=xterm-256color && python ./rejoin.py" <<EOF
-\\r
-1
-9999
-EOF
-'''
-with open(f"{home_dir}/03_run_python_script.sh", "w") as file:
-    file.write(script_3_content)
+    -- Auto Mail
+    AUTO_MAIL_USERNAME = {"wraith4a"},  -- "Username" (Randomized)
+    AUTO_MAIL_ITEM_NAME = {["Rainbow"] = 1, ["Mushroom"] = 10, ["Gold"] = 1, ["Moon Bloom"] = 1, ["Dragon's Breath"] = 1, ["GoldenDragonfly"] = 1, ["Unicorn"] = 1, ["Raccoon"] = 1, ["BlackDragon"] = 1, ["IceSerpent"] = 1, ["Super Sprinkler"] = 1, ["Super Watering Can"] = 1, ["Legendary Sprinkler"] = 1},  -- ["Item Name"] = Amount
+    COLLECT_MAIL = true,
 
-# Create master script: 00_run_scripts.sh
-master_script_content = '''#!/data/data/com.termux/files/usr/bin/sh
-/data/data/com.termux/files/home/01_set_android_id.sh
-/data/data/com.termux/files/home/02_run_additional_command.sh
-/data/data/com.termux/files/home/03_run_python_script.sh
-'''
-with open(f"{boot_dir}/00_run_scripts.sh", "w") as file:
-    file.write(master_script_content)
+    -- Discord
+    WEBHOOK_PET_NAME = {},
+    WEBHOOK_PET_RARITY = { "Mythic", "Super", "Secret" },
+    WEBHOOK_URL = "https://discord.com/api/webhooks/1245657140530515998/b21ZWHUZAiIABCXeyXQe8AVhR8hF_reDuQhonJtfdzuEgZN-ipSgKs-SCAP8RIoJMXA9",
+    DISCORD_ID = "",
+    WEBHOOK_NOTE = "nigga",  -- Private Webhook
+    SHOW_PUBLIC_DISCORD_ID = false,
+    SHOW_WEBHOOK_USERNAME = true,  -- Private Webhook
+    SHOW_WEBHOOK_JOBID = true,  -- Private Webhook
+}
 
-# Make all scripts executable
-scripts = [
-    f"{home_dir}/01_set_android_id.sh",
-    f"{home_dir}/02_run_additional_command.sh",
-    f"{home_dir}/03_run_python_script.sh",
-    f"{boot_dir}/00_run_scripts.sh"
-]
-
-for script in scripts:
-    os.chmod(script, stat.S_IRWXU)
-
-print("Termux boot setup complete! You can now reboot your device.")
+loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/c9ea3aa6c782de82dee4bcf6b9a9d03e.lua"))()
