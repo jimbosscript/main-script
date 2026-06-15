@@ -20,7 +20,11 @@ getgenv().Config = {
 
     ["EggSettings"] = {
         ["MinFreeEgg"] = 1, -- or 1,2,5,10 etc or false to disable,
-        ["MinTitanicegg"] = 100, -- 100x or false,
+        ["MinTitanicegg"] = 100, -- or 75,100 etc or false to disable,
+        ["MinGauntletEgg"] = 10,  -- or 1,2,5,10 etc or false to disable,
+        
+        ["KickIfNoEgg"] = "Kick", -- rejoin,serverhop,kick
+        ["NoCoinsFarmTo"] = "50m"
     },
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/992997535910a415037c9a7234bf76ac.lua"))()
