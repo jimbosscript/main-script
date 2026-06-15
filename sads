@@ -76,7 +76,7 @@ getgenv().GAG2Config = {
         ["Dragon's Breath"] = 999,
     },
     
-    COLLECT_PLANT_IF_MUTATED = { "Bamboo", "Green Bean" },
+    COLLECT_PLANT_IF_MUTATED = { "Green Bean" },
     SELL_ALL_DELAY = 20,
     EXPAND_PLOT = true,
     BUY_GEAR = {["Super Sprinkler"] = 99, ["Super Watering Can"] = 99, ["Legendary Sprinkler"] = 99, ["Common Sprinkler"] = 99, ["Uncommon Sprinkler"] = 99, ["Rare Sprinkler"] = 99},  -- ["Gear Name"] = Amount
