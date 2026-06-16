@@ -24,12 +24,12 @@ getgenv().GAG2Config = {
         ["Tulip"] = 0,
         ["Tomato"] = 0,
         ["Apple"] = 0,
-        ["Bamboo"] = 300,
+        ["Bamboo"] = 200,
         ["Corn"] = 0,
         ["Cactus"] = 0,
         ["Pineapple"] = 0,
         ["Mushroom"] = 100,
-        ["Green Bean"] = 0,
+        ["Green Bean"] = 5,
         ["Banana"] = 0,
         ["Grape"] = 0,
         ["Coconut"] = 0,
@@ -73,7 +73,7 @@ getgenv().GAG2Config = {
         ["Dragon's Breath"] = 999,
     },
     
-    COLLECT_PLANT_IF_MUTATED = { "Green Bean" },
+    COLLECT_PLANT_IF_MUTATED = { "Mushroom", "Bamboo", "Green Bean" },
     SELL_ALL_DELAY = 20,
     EXPAND_PLOT = true,
     BUY_GEAR = {["Super Sprinkler"] = 99, ["Super Watering Can"] = 99, ["Legendary Sprinkler"] = 99, ["Common Sprinkler"] = 99, ["Uncommon Sprinkler"] = 99, ["Rare Sprinkler"] = 99},  -- ["Gear Name"] = Amount
@@ -82,7 +82,7 @@ getgenv().GAG2Config = {
 
     -- Auto Mail
     AUTO_MAIL_USERNAME = {"wraith4a"},  -- "Username" (Randomized)
-    AUTO_MAIL_ITEM_NAME = {["Bamboo"] = 1000, ["Mushroom"] = 50, ["Rainbow"] = 10, ["Gold"] = 20, ["Moon Bloom"] = 1, ["Dragon's Breath"] = 1, ["GoldenDragonfly"] = 1, ["Unicorn"] = 1, ["Raccoon"] = 1, ["BlackDragon"] = 1, ["IceSerpent"] = 1, ["Super Sprinkler"] = 1, ["Super Watering Can"] = 1, ["Legendary Sprinkler"] = 1},  -- ["Item Name"] = Amount
+    AUTO_MAIL_ITEM_NAME = {["Bamboo"] = 1000, ["Rainbow"] = 10, ["Gold"] = 20, ["Moon Bloom"] = 1, ["Dragon's Breath"] = 1, ["GoldenDragonfly"] = 1, ["Unicorn"] = 1, ["Raccoon"] = 1, ["BlackDragon"] = 1, ["IceSerpent"] = 1, ["Super Sprinkler"] = 1, ["Super Watering Can"] = 1, ["Legendary Sprinkler"] = 1},  -- ["Item Name"] = Amount
     COLLECT_MAIL = true,
 
     -- Discord
