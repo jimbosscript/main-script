@@ -4,8 +4,8 @@ getgenv().GAG2Config = {
     AUTO_UPDATE_RESTART = true,
 
     BUY_PET = {  -- ["Pet Name"] = Amount
-        ["Black Dragon"] = 99, 
-        ["Golden Dragonfly"] = 99, 
+        ["BlackDragon"] = 99, 
+        ["GoldenDragonfly"] = 99, 
         ["Unicorn"] = 99, 
         ["Raccoon"] = 99, 
         ["Monkey"] = 5, 
@@ -81,8 +81,8 @@ getgenv().GAG2Config = {
 
     SELL_ALL_DELAY = 20,
     FOCUS_RAINBOW_GOLD_SEED = true,  -- set true if public server (instant collect), false for slightly slower collect
-    EXPAND_PLOT = true,
-    BUY_GEAR = {},  -- ["Gear Name"] = Amount
+    EXPAND_PLOT = 3,
+    BUY_GEAR = { ["Super Sprinkler"] = 99, ["Legendary Sprinkler"] = 99, ["Super Watering Can"] = 99 },  -- ["Gear Name"] = Amount
     BUY_CRATE = {},  -- ["Crate Name"] = Amount
     USE_SPRINKLER = {},  -- "Sprinkler Name"
 
@@ -93,12 +93,15 @@ getgenv().GAG2Config = {
     ["Moon Bloom"] = 1, 
     ["Dragon's Breath"] = 1, 
     ["Monkey"] = 1,
-    ["Black Dragon"] = 1, 
-    ["Golden Dragonfly"] = 1, 
+    ["BlackDragon"] = 1, 
+    ["GoldenDragonfly"] = 1, 
     ["Monkey"] = 1, 
     ["Unicorn"] = 1, 
     ["Raccoon"] = 1, 
-    ["Ice Serpent"] = 1
+    ["Ice Serpent"] = 1,
+    ["Super Sprinkler"] = 1,
+    ["Legendary Sprinkler"] = 1,
+    ["Super Watering Can"] = 1
   },  -- ["Item Name"] = Amount
     COLLECT_MAIL = true,
 
