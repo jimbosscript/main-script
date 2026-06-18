@@ -5,7 +5,7 @@ getgenv().GAG2Config = {
 
     BUY_PET = {  -- ["Pet Name"] = Amount
         ["BlackDragon"] = 99, 
-        ["GoldenDragonfly"] = 99, 
+        ["GoldenDragonfly"] = 0, 
         ["Unicorn"] = 99, 
         ["Raccoon"] = 99, 
         ["Monkey"] = 0, 
