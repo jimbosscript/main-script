@@ -8,7 +8,7 @@ getgenv().GAG2Config = {
         ["GoldenDragonfly"] = 99, 
         ["Unicorn"] = 99, 
         ["Raccoon"] = 99, 
-        ["Monkey"] = 5, 
+        ["Monkey"] = 0, 
         ["Ice Serpent"] = 99,
 
         ["Robin"] = 0,
