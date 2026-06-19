@@ -63,7 +63,7 @@ getgenv().GAG2Config = {
         ["Green Bean"] = 0,
         ["Banana"] = 0,
         ["Grape"] = 0,
-        ["Coconut"] = 0,
+        ["Coconut"] = 5,
         ["Mango"] = 0,
         ["Dragon Fruit"] = 0,
         ["Acorn"] = 0,
@@ -91,7 +91,7 @@ getgenv().GAG2Config = {
         ["Green Bean"] = 0,
         ["Banana"] = 0,
         ["Grape"] = 0,
-        ["Coconut"] = 5,
+        ["Coconut"] = 0,
         ["Mango"] = 0,
         ["Dragon Fruit"] = 0,
         ["Acorn"] = 0,
@@ -104,7 +104,7 @@ getgenv().GAG2Config = {
         ["Dragon's Breath"] = 0,
     },
 
-    COLLECT_PLANT_IF_MUTATED = { "Bamboo", "Mushroom", "Green Bean", "Tulip" },  -- Only collect fruit when have ANY mutation
+    COLLECT_PLANT_IF_MUTATED = { "Bamboo", "Mushroom", "Green Bean", "Tulip", "Coconut" },  -- Only collect fruit when have ANY mutation
     FAVOURITE_FRUIT = {},  -- ["Fruit Name"] = {} ... or ... ["Fruit Name"] = { "Gold", "Rainbow" }
     
     SELL_ALL_DAILY_DEAL = true,
