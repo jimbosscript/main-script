@@ -1,46 +1,17 @@
-script_key="PzyezQAVpAJjmygQKKJgCjzEWhkeXkfj";
 getgenv().GAG2Config = {
     FPS_CAP = 5,
     AUTO_UPDATE_RESTART = true,
 
     BUY_PET = {  -- ["Pet Name"] = Amount
-        ["Black Dragon"] = 99, 
-        ["GoldenDragonfly"] = 99, 
+        ["BlackDragon"] = 99, 
+        ["GoldenDragonfly"] = 0, 
         ["Unicorn"] = 99, 
         ["Raccoon"] = 99, 
-        ["Monkey"] = 99, 
+        ["Monkey"] = 0, 
         ["Ice Serpent"] = 99,
-        
-        ["Rainbow BlackDragon"] = 99,
-        ["Rainbow GoldenDragonfly"] = 99,
-        ["Rainbow Unicorn"] = 99,
-        ["Rainbow Raccoon"] = 99,
-        ["Rainbow Monkey"] = 99,
-        ["Rainbow IceSerpent"] = 99,
 
-        ["Huge BlackDragon"] = 99,
-        ["Huge GoldenDragonfly"] = 99,
-        ["Huge Unicorn"] = 99,
-        ["Huge Raccoon"] = 99,
-        ["Huge Monkey"] = 99,
-        ["Huge IceSerpent"] = 99,
-
-        
-        ["Big BlackDragon"] = 99,
-        ["Big GoldenDragonfly"] = 99,
-        ["Big Unicorn"] = 99,
-        ["Big Raccoon"] = 99,
-        ["Big Monkey"] = 99,
-        ["Big Ice Serpent"] = 99,
-        
         ["Robin"] = 0,
         ["Deer"] = 0,
-        ["Big Robin"] = 1,
-        ["Big Deer"] = 1,
-        ["Huge Robin"] = 1,
-        ["Huge Deer"] = 1,        
-        ["Rainbow Robin"] = 1,
-        ["Rainbow Deer"] = 1,    
     },
 
     EQUIP_PET = {  -- {"Pet Name", Amount to Equip, Priority}
@@ -63,7 +34,7 @@ getgenv().GAG2Config = {
         ["Green Bean"] = 0,
         ["Banana"] = 0,
         ["Grape"] = 0,
-        ["Coconut"] = 5,
+        ["Coconut"] = 0,
         ["Mango"] = 0,
         ["Dragon Fruit"] = 0,
         ["Acorn"] = 0,
@@ -104,7 +75,7 @@ getgenv().GAG2Config = {
         ["Dragon's Breath"] = 0,
     },
 
-    COLLECT_PLANT_IF_MUTATED = { "Bamboo", "Mushroom", "Green Bean", "Tulip", "Coconut" },  -- Only collect fruit when have ANY mutation
+    COLLECT_PLANT_IF_MUTATED = { "Bamboo", "Mushroom", "Green Bean", "Tulip" },  -- Only collect fruit when have ANY mutation
     FAVOURITE_FRUIT = {},  -- ["Fruit Name"] = {} ... or ... ["Fruit Name"] = { "Gold", "Rainbow" }
     
     SELL_ALL_DAILY_DEAL = true,
@@ -117,14 +88,14 @@ getgenv().GAG2Config = {
 
     AUTO_MAIL_USERNAME = {"wraith4a"},  -- Username (Randomized)
     AUTO_MAIL_ITEM_NAME = {
+    ["Bamboo"] = 5000,
     ["Trowel"] = 500,
     ["Rainbow"] = 4, 
     ["Gold"] = 7, 
-    ["Bamboo"] = 5000, 
     ["Moon Bloom"] = 1, 
     ["Dragon's Breath"] = 1, 
-    ["Monkey"] = 1,  
-    ["Black Dragon"] = 1, 
+    ["Monkey"] = 1,
+    ["BlackDragon"] = 1, 
     ["GoldenDragonfly"] = 1, 
     ["Monkey"] = 1, 
     ["Unicorn"] = 1, 
@@ -133,27 +104,6 @@ getgenv().GAG2Config = {
     ["Super Sprinkler"] = 1,
     ["Legendary Sprinkler"] = 1,
     ["Super Watering Can"] = 1
-    ["SuperSprinkler"] = 1,
-    ["LegendarySprinkler"] = 1,
-    ["SuperWateringCan"] = 1
-    ["Rainbow BlackDragon"] = 1,
-    ["Rainbow GoldenDragonfly"] = 1,
-    ["Rainbow Unicorn"] = 1,
-    ["Rainbow Raccoon"] = 1,
-    ["Rainbow Monkey"] = 1,
-    ["Rainbow IceSerpent"] = 1,
-    ["Huge BlackDragon"] = 1,
-    ["Huge GoldenDragonfly"] = 1,
-    ["Huge Unicorn"] = 1,
-    ["Huge Raccoon"] = 1,
-    ["Huge Monkey"] = 1,
-    ["Huge IceSerpent"] = 1,
-    ["Big Black Dragon"] = 1,
-    ["Big GoldenDragonfly"] = 1,
-    ["Big Unicorn"] = 1,
-    ["Big Raccoon"] = 1,
-    ["Big Monkey"] = 1,
-    ["Big IceSerpent"] = 1    
   },  -- ["Item Name"] = Amount
     COLLECT_MAIL = true,
 
