@@ -1,4 +1,4 @@
-script_key="onIJdCToOCtouKHvPKEoGULYjbVpDGud";
+script_key="iDVdolGLtqusLkVBinTWApCIYnwpoMUQ";
 getgenv().GAG2Config = {
     FPS_CAP = 5,
     AUTO_UPDATE_RESTART = true,
