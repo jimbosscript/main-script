@@ -83,13 +83,14 @@ getgenv().GAG2Config = {
     SELL_ALL_DELAY = 20,
     FOCUS_RAINBOW_GOLD_SEED = true,  -- set true if public server (instant collect), false for slightly slower collect
     EXPAND_PLOT = 3,
-    BUY_GEAR = { ["Super Sprinkler"] = 99, ["Legendary Sprinkler"] = 99, ["Super Watering Can"] = 99 },  -- ["Gear Name"] = Amount
+    BUY_GEAR = { ["Super Sprinkler"] = 99, ["Legendary Sprinkler"] = 99, ["Super Watering Can"] = 99, ["Trowel"] = 99},  -- ["Gear Name"] = Amount
     BUY_CRATE = {},  -- ["Crate Name"] = Amount
     USE_SPRINKLER = {},  -- "Sprinkler Name"
 
     AUTO_MAIL_USERNAME = {"wraith4a"},  -- Username (Randomized)
     AUTO_MAIL_ITEM_NAME = {
     ["Bamboo"] = 5000,
+    ["Trowel"] = 500,
     ["Rainbow"] = 4, 
     ["Gold"] = 7, 
     ["Moon Bloom"] = 1, 
