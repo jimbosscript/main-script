@@ -1,14 +1,15 @@
 script_key="iDVdolGLtqusLkVBinTWApCIYnwpoMUQ";
+script_key="iDVdolGLtqusLkVBinTWApCIYnwpoMUQ";
 getgenv().GAG2Config = {
     FPS_CAP = 5,
     AUTO_UPDATE_RESTART = true,
 
-    BUY_PET = {  -- ["Pet Name"] = Amount
+        BUY_PET = {  -- ["Pet Name"] = Amount
         ["Black Dragon"] = 99, 
         ["GoldenDragonfly"] = 99, 
         ["Unicorn"] = 99, 
         ["Raccoon"] = 99, 
-        ["Monkey"] = 99, 
+        ["Monkey"] = 0, 
         ["Ice Serpent"] = 99,
         
         ["Rainbow BlackDragon"] = 99,
@@ -63,7 +64,7 @@ getgenv().GAG2Config = {
         ["Green Bean"] = 0,
         ["Banana"] = 0,
         ["Grape"] = 0,
-        ["Coconut"] = 5,
+        ["Coconut"] = 0,
         ["Mango"] = 0,
         ["Dragon Fruit"] = 0,
         ["Acorn"] = 0,
@@ -104,7 +105,7 @@ getgenv().GAG2Config = {
         ["Dragon's Breath"] = 0,
     },
 
-    COLLECT_PLANT_IF_MUTATED = { "Bamboo", "Mushroom", "Green Bean", "Tulip", "Coconut" },  -- Only collect fruit when have ANY mutation
+    COLLECT_PLANT_IF_MUTATED = { "Bamboo", "Mushroom", "Green Bean", "Tulip" },  -- Only collect fruit when have ANY mutation
     FAVOURITE_FRUIT = {},  -- ["Fruit Name"] = {} ... or ... ["Fruit Name"] = { "Gold", "Rainbow" }
     
     SELL_ALL_DAILY_DEAL = true,
@@ -116,7 +117,7 @@ getgenv().GAG2Config = {
     USE_SPRINKLER = {},  -- "Sprinkler Name"
 
     AUTO_MAIL_USERNAME = {"wraith4a"},  -- Username (Randomized)
-    AUTO_MAIL_ITEM_NAME = {
+        AUTO_MAIL_ITEM_NAME = {
     ["Trowel"] = 500,
     ["Rainbow"] = 4, 
     ["Gold"] = 7, 
@@ -153,7 +154,7 @@ getgenv().GAG2Config = {
     ["Big Unicorn"] = 1,
     ["Big Raccoon"] = 1,
     ["Big Monkey"] = 1,
-    ["Big IceSerpent"] = 1    
+    ["Big IceSerpent"] = 1,    
   },  -- ["Item Name"] = Amount
     COLLECT_MAIL = true,
 
