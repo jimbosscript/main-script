@@ -49,7 +49,7 @@ getgenv().GAG2Config = {
     },
 
     BUY_SEED = {  -- ["Seed Name"] = Amount
-       ["Carrot"] = 5, 
+       ["Carrot"] = 999, 
         ["Strawberry"] = 0,
         ["Blueberry"] = 0,
         ["Tulip"] = 10,
@@ -89,6 +89,7 @@ getgenv().GAG2Config = {
 
     AUTO_MAIL_USERNAME = {"wraith4a"},  -- Username (Randomized)
     AUTO_MAIL_ITEM_NAME = {
+    ["Carrot"] = 1000,
     ["Bamboo"] = 5000,
     ["Trowel"] = 500,
     ["Rainbow"] = 4, 
