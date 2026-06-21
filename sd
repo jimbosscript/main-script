@@ -1,6 +1,6 @@
 script_key="iDVdolGLtqusLkVBinTWApCIYnwpoMUQ";
 getgenv().GAG2Config = {
-    FPS_CAP = 10,
+    FPS_CAP = 7,
     AUTO_UPDATE_RESTART = true,
 
     BUY_PET = {  -- ["Pet Name"] = Amount
@@ -21,7 +21,7 @@ getgenv().GAG2Config = {
     },
 
     PLANT_SEED = {  -- ["Seed Name"] = Amount
-        ["Carrot"] = 0, 
+        ["Carrot"] = 1, 
         ["Strawberry"] = 0,
         ["Blueberry"] = 0,
         ["Tulip"] = 10,
