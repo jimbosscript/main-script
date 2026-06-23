@@ -86,7 +86,7 @@ getgenv().GAG2Config = {
     MAX_PET_EQUIP = 6,
     BUY_GEAR_MIN_SHECKLE = 1000000, 
     EXPAND_PLOT = 3,
-    BUY_GEAR = { ["Super Sprinkler"] = 99, ["Legendary Sprinkler"] = 99, ["Super Watering Can"] = 99, ["Trowel"] = 99},  -- ["Gear Name"] = Amount
+    BUY_GEAR = { ["Super Sprinkler"] = 99, ["Super Watering Can"] = 99, ["Trowel"] = 99},  -- ["Gear Name"] = Amount
     BUY_CRATE = {},  -- ["Crate Name"] = Amount
     USE_SPRINKLER = {},  -- "Sprinkler Name"
 
