@@ -1,6 +1,6 @@
 script_key="iDVdolGLtqusLkVBinTWApCIYnwpoMUQ";
 getgenv().GAG2Config = {
-    FPS_CAP = 10,
+    FPS_CAP = 7,
     AUTO_UPDATE_RESTART = true,
 
     BUY_PET = {  -- ["Pet Name"] = Amount
@@ -46,7 +46,7 @@ getgenv().GAG2Config = {
         ["Poison Apple"] = 0,
         ["Moon Bloom"] = 0,
         ["Dragon's Breath"] = 0,
-        ["Gold"] = 5
+        ["Gold"] = 999
     },
 
     BUY_SEED = {  -- ["Seed Name"] = Amount
@@ -93,10 +93,9 @@ getgenv().GAG2Config = {
     AUTO_MAIL_USERNAME = {"wraith4a"},  -- Username (Randomized)
     AUTO_MAIL_ITEM_NAME = {
     ["Carrot"] = 250,
-    ["Bamboo"] = 2000,
-    ["Trowel"] = 250,
+    ["Bamboo"] = 1000,
+    ["Trowel"] = 100,
     ["Rainbow"] = 4, 
-    ["Gold"] = 7, 
     ["Moon Bloom"] = 1, 
     ["Dragon's Breath"] = 1, 
     ["Monkey"] = 1,
