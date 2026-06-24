@@ -119,7 +119,6 @@ getgenv().GAG2Config = {
     BUY_GEAR = {
         ["Super Watering Can"] = 9999,
         ["Super Sprinkler"] = 9999,
-        ["Legendary Sprinkler"] = 9999,
         ["Trowel"] = 9999,
     },
 
