@@ -42,6 +42,9 @@ getgenv().GAG2Config = {
         ["Huge Deer"] = 1,
         ["Rainbow Robin"] = 1,
         ["Rainbow Deer"] = 1,
+        ["Big Turtle"] = 1,
+        ["Huge Turtle"] = 1,
+        ["Rainbow Turtle"] = 1,
     },
 
     EQUIP_PET = {
