@@ -45,8 +45,7 @@ getgenv().GAG2Config = {
     },
 
     EQUIP_PET = {
-        {"Robin", 5, 1},
-        {"Deer", 5, 2},
+        {"Unicorn" 6, 1},
     },
 
     PLANT_SEED = {
@@ -128,20 +127,19 @@ getgenv().GAG2Config = {
         ["wraith4a"] = {
             ["Rainbow"] = "All",
             ["Trowel"] = 99,
-            ["Carrot"] = 250,
-            ["Tomato"] = 200,
-            ["Apple"] = 100,
+            ["Carrot"] = 500,
+            ["Tomato"] = 500,
+            ["Apple"] = 200,
             ["Pineapple"] = 100,
-            ["Strawberry"] = 200,
+            ["Strawberry"] = 500,
             ["Sunflower"] = 50,
-            ["Gold"] = "All",
+            ["Gold"] = 7,
             ["Bamboo"] = 1000,
             ["Moon Bloom"] = "All",
             ["Dragon's Breath"] = "All",
             ["Monkey"] = "All",
             ["BlackDragon"] = "All",
             ["GoldenDragonfly"] = "All",
-            ["Unicorn"] = "All",
             ["Raccoon"] = "All",
             ["IceSerpent"] = "All",
             ["Super Sprinkler"] = "All",
