@@ -166,6 +166,9 @@ getgenv().GAG2Config = {
             ["Big Raccoon"] = "All",
             ["Big Monkey"] = "All",
             ["Big IceSerpent"] = "All",
+            ["Big Turtle"] = 1,
+            ["Huge Turtle"] = 1,
+            ["Rainbow Turtle"] = 1,
         },
     },
 
