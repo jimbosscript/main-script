@@ -80,7 +80,7 @@ getgenv().GAG2Config = {
     },
 
     BUY_SEED = {
-        ["Carrot"] = 0,
+        ["Carrot"] = 1,
         ["Strawberry"] = 999,
         ["Blueberry"] = 0,
         ["Tulip"] = 10,
@@ -128,7 +128,8 @@ getgenv().GAG2Config = {
 
     AUTO_MAIL = {
         ["wraith4a"] = {
-            ["Rainbow"] = "All",
+            ["Mega"] = 1,
+            ["Rainbow"] = 5,
             ["Trowel"] = 99,
             ["Carrot"] = 500,
             ["Tomato"] = 500,
