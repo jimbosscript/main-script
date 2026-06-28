@@ -1,7 +1,7 @@
 script_key="iDVdolGLtqusLkVBinTWApCIYnwpoMUQ";
 
 getgenv().GAG2Config = {
-    FPS_CAP = 7,
+    FPS_CAP = 5,
     AUTO_UPDATE_RESTART = true,
     COLLECT_FRUIT_DELAY = 20,
 
