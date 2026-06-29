@@ -99,7 +99,7 @@ getgenv().GAG2Config = {
     BUY_CRATE = {},
 
     AUTO_MAIL = {
-        ["wraith4a"] = {
+        ["baconhair21450966"] = {
             ["Rainbow"] = 5,
             ["Super Sprinkler"] = "All",
             ["Legendary Sprinkler"] = "All",
@@ -114,7 +114,7 @@ getgenv().GAG2Config = {
             ["Unicorn"] = "All",
             ["Raccoon"] = "All",
         },
-        ["wraith4a"] = {
+        ["baconhair21450966"] = {
             ["Carrots"] = 200,
         }
     },
