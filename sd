@@ -12,9 +12,13 @@ getgenv().GAG2Config = {
         ["Robin"] = 1,
         ["Deer"] = 1,
         ["Huge Deer"] = 1,
+        ["GoldenDragonfly"] = 1,
+        ["Unicorn"] = 1,
     },
 
     EQUIP_PET = {
+        {"Unicorn", 6, 1},
+        {"GoldenDragonfly", 6, 2},
         {"Robin", 2, 3},
         {"Deer", 4, 3},
     },
@@ -80,8 +84,7 @@ getgenv().GAG2Config = {
     },
 
     COLLECT_PLANT_IF_MUTATED = { "Bamboo", "Mushroom", "Venom Spitter", "Dragon's Breathe", "Moon Bloom", "Hypno Bloom" },
-    FAVOURITE_FRUIT = {},
-    SELL_FRUIT_MULTIPLIER = { ["Bamboo"] = 1.5 }, 
+    FAVOURITE_FRUIT = {}, 
     SELL_ALL_DELAY = 20,
 
     FOCUS_COLLECT_DROPPED_SEED = true,
@@ -115,7 +118,6 @@ getgenv().GAG2Config = {
             ["Hypno Bloom"] = "All",
             ["Dragon's Breath"] = "All",
             ["GoldenDragonfly"] = "All",
-            ["Unicorn"] = "All",
             ["Raccoon"] = "All",
         },
         ["baconhair21450966"] = {
