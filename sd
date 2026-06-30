@@ -60,7 +60,7 @@ getgenv().GAG2Config = {
         ["Bamboo"] = 999,
         ["Corn"] = 0,
         ["Cactus"] = 0,
-        ["Pineapple"] = 0,
+        ["Pineapple"] = 999,
         ["Mushroom"] = 999,
         ["Green Bean"] = 5,
         ["Banana"] = 0,
@@ -114,8 +114,9 @@ getgenv().GAG2Config = {
             ["Unicorn"] = "All",
             ["Raccoon"] = "All",
         },
-        ["wraith4a"] = {
+        ["baconhair21450966"] = {
             ["Carrots"] = 200,
+            ["Pineapple"] = 100,
         }
     },
 
