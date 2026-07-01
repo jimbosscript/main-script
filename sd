@@ -24,7 +24,7 @@ getgenv().GAG2Config = {
     },
 
     PLANT_SEED = {
-        ["Carrot"] = 0,
+        ["Carrot"] = 1,
         ["Strawberry"] = 0,
         ["Blueberry"] = 0,
         ["Tulip"] = 10,
@@ -121,7 +121,7 @@ getgenv().GAG2Config = {
             ["Raccoon"] = "All",
         },
         ["baconhair21450966"] = {
-            ["Carrot"] = 200,
+            ["Carrot"] = 100,
             ["Pineapple"] = 100,
         }
     },
