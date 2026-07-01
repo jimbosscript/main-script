@@ -125,19 +125,21 @@ getgenv().GAG2Config = {
             ["Raccoon"] = "All",
             ["Carrot"] = 100,
             ["Pineapple"] = 100,
+        }
     },
-
+    AUTO_MAIL_DELAY = 3600,
     COLLECT_MAIL = true,
 
-    WEBHOOK_PET_NAME = {
+WEBHOOK_PET_NAME = {
         ["BlackDragon"] = 99,
         ["GoldenDragonfly"] = 99,
         ["Unicorn"] = 99,
         ["Raccoon"] = 99,
+        ["Monkey"] = 99,
         ["IceSerpent"] = 99,
     },
     WEBHOOK_PET_RARITY = { "Mythic", "Super", "Secret" },
-    WEBHOOK_URL = "https://discord.com/api/webhooks/1515359263583764602/n3YrtOh2562AhexPvBHoGi8e0hM_2hvEHC47J-_uYACDKo_zHxGrt69lX8mLTnIMoxnz",
+    WEBHOOK_URL = "xxxxx",
     DISCORD_ID = "",
     WEBHOOK_NOTE = "we made it",
     SHOW_PUBLIC_DISCORD_ID = true,
