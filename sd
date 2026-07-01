@@ -52,6 +52,7 @@ getgenv().GAG2Config = {
         ["Hypno Bloom"] = 10,
         ["Venom Spitter"] = 10,
         ["Gold"] = 200,
+        ["Rainbow"] = 100,
     },
 
     BUY_SEED = {
