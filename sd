@@ -86,6 +86,7 @@ getgenv().GAG2Config = {
 
     COLLECT_PLANT_IF_MUTATED = { "Bamboo", "Mushroom", "Venom Spitter", "Dragon's Breathe", "Moon Bloom", "Hypno Bloom" },
     FAVOURITE_FRUIT = {}, 
+    SELL_ALL_DAILY_DEAL = 1000000,  -- Min "daily sell all" value
     SELL_ALL_DELAY = 20,
 
     FOCUS_COLLECT_DROPPED_SEED = true,
