@@ -90,7 +90,7 @@ getgenv().GAG2Config = {
     FOCUS_COLLECT_DROPPED_SEED = true,
     MAX_PET_EQUIP = 6,
     BUY_GEAR_MIN_SHECKLE = 1000000,
-    EXPAND_PLOT = 2,
+    EXPAND_PLOT = 3,
     USE_SPRINKLER = {"Common Sprinkler", "Uncommon Sprinkler", "Rare Sprinkler"},
 
     BUY_GEAR = {
@@ -113,7 +113,6 @@ getgenv().GAG2Config = {
             ["Moon Bloom"] = "All",
             ["Hypno Bloom"] = "All",
             ["Dragon's Breath"] = "All",
-            ["GoldenDragonfly"] = "All",
             ["Raccoon"] = "All",
             ["Carrot"] = 100,
             ["Pineapple"] = 100,
