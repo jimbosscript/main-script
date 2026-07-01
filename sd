@@ -106,23 +106,18 @@ getgenv().GAG2Config = {
 
     AUTO_MAIL = {
         ["wraith4a"] = {
-            ["Rainbow"] = 5,
             ["Super Sprinkler"] = "All",
             ["Legendary Sprinkler"] = "All",
             ["Super Watering Can"] = "All",
             ["Trowel"] = 99,
-            ["Gold"] = 10,
-            ["Mega"] = 1,
+            ["Mega"] = 3,
             ["Moon Bloom"] = "All",
             ["Hypno Bloom"] = "All",
             ["Dragon's Breath"] = "All",
             ["GoldenDragonfly"] = "All",
             ["Raccoon"] = "All",
-        },
-        ["baconhair21450966"] = {
             ["Carrot"] = 100,
             ["Pineapple"] = 100,
-        }
     },
 
     COLLECT_MAIL = true,
