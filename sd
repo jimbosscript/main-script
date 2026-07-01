@@ -121,7 +121,7 @@ getgenv().GAG2Config = {
             ["Raccoon"] = "All",
         },
         ["baconhair21450966"] = {
-            ["Carrots"] = 200,
+            ["Carrot"] = 200,
             ["Pineapple"] = 100,
         }
     },
