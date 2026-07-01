@@ -97,7 +97,6 @@ getgenv().GAG2Config = {
         ["Super Watering Can"] = 9999,
         ["Common Sprinkler"] = 5,
         ["Uncommon Sprinkler"] = 5,
-        ["Rare Sprinkler"] = 5,
         ["Super Sprinkler"] = 9999,
         ["Trowel"] = 9999,
     },
