@@ -113,7 +113,7 @@ getgenv().GAG2Config = {
     BUY_CRATE = {},
 
     AUTO_MAIL = {
-        ["brobro12881"] = {
+        ["petsimfarmer12_3"] = {
             ["Super Sprinkler"] = "All",
             ["Legendary Sprinkler"] = "All",
             ["Super Watering Can"] = "All",
