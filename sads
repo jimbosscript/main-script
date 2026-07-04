@@ -114,6 +114,8 @@ getgenv().GAG2Config = {
 
     AUTO_MAIL = {
         ["petsimfarmer12_3"] = {
+            ["GoldenDragonfly"] = "All",
+            ["Unicorn"] = "All",
             ["Super Sprinkler"] = "All",
             ["Legendary Sprinkler"] = "All",
             ["Super Watering Can"] = "All",
