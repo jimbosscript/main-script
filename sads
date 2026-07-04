@@ -127,7 +127,7 @@ getgenv().GAG2Config = {
             ["Pineapple"] = 100,
         }
     },
-    AUTO_MAIL_DELAY = 3600,
+    AUTO_MAIL_DELAY = 60,
     COLLECT_MAIL = true,
 
 WEBHOOK_PET_NAME = {
