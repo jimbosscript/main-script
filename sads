@@ -15,8 +15,8 @@ getgenv().GAG2Config = {
     },
 
     EQUIP_PET = {
-        {"Unicorn", 6, 1},
-        {"GoldenDragonfly", 6, 2},
+        {"Unicorn", 1, 1},
+        {"GoldenDragonfly", 1, 2},
         {"Robin", 2, 3},
         {"Deer", 4, 3},
     },
