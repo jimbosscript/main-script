@@ -9,9 +9,15 @@ getgenv().GAG2Config = {
     BUY_PET = {
         ["BlackDragon"] = 99,
         ["Raccoon"] = 99,
-        ["Huge Deer"] = 1,
-        ["GoldenDragonfly"] = 1,
-        ["Unicorn"] = 1,
+        ["Robin"] = 0,
+        ["Deer"] = 0,
+        ["Huge Deer"] = 99,
+        ["Mega Deer"] = 99,
+        ["Butterfly"] = 99,
+        ["Mega Butterfly"] = 99,
+        ["Mega Turtle"] = 99,
+        ["Huge Turtle"] = 99,
+        ["BaldEagle"] = 99,
     },
 
     EQUIP_PET = {
@@ -114,19 +120,21 @@ getgenv().GAG2Config = {
 
     AUTO_MAIL = {
         ["petsimfarmer12_3"] = {
-            ["GoldenDragonfly"] = "All",
             ["Unicorn"] = "All",
+            ["GoldenDragonfly"] = "All",
             ["Super Sprinkler"] = "All",
             ["Legendary Sprinkler"] = "All",
             ["Super Watering Can"] = "All",
             ["Trowel"] = 99,
-            ["Mega"] = 1,
+            ["Mega"] = "All",
             ["Moon Bloom"] = "All",
             ["Hypno Bloom"] = "All",
             ["Dragon's Breath"] = "All",
             ["Raccoon"] = "All",
             ["Carrot"] = 100,
             ["Pineapple"] = 100,
+            ["BaldEagle"] = "All",
+            ["Butterfly"] = "All",
         }
     },
     AUTO_MAIL_DELAY = 60,
