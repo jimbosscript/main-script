@@ -55,8 +55,6 @@ getgenv().GAG2Config = {
         ["Dragon's Breath"] = 10,
         ["Hypno Bloom"] = 10,
         ["Venom Spitter"] = 10,
-        ["Gold"] = 200,
-        ["Rainbow"] = 100,
     },
 
     BUY_SEED = {
@@ -120,6 +118,8 @@ getgenv().GAG2Config = {
 
     AUTO_MAIL = {
         ["petsimfarmer12_3"] = {
+            ["Gold"] = 7,
+            ["Rainbow"] = 4,
             ["Unicorn"] = "All",
             ["GoldenDragonfly"] = "All",
             ["Super Sprinkler"] = "All",
